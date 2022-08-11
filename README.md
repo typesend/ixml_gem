@@ -1,8 +1,18 @@
 # IXML
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ixml`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Gem Version](https://badge.fury.io/rb/ixml.svg)](https://rubygems.org/gems/ixml)
 
-TODO: Delete this and the text above, and describe your gem
+This gem provides a CLI in addition to an IXML class for use within your ruby projects. It is based on [Rley](https://github.com/famished-tiger/Rley), a novel Earley parser with support for amiguous parses using a Grammar Flow Graph.
+
+Invisible XML (ixml) is a method for treating non-XML documents as if they were XML,
+enabling authors to write documents and data in a format they prefer while providing XML
+for tasks that are more effective with XML content.
+
+It is a superior alternative to Regular Expressions. IXML is more productive and reusable than hand-crafting bespoke, programming-language-specific text parsers by hand.
+
+For more background on ixml, as well as the specification, officially released June 2022,
+and the available implementations, see https://invisiblexml.org. There is also a github
+repository at https://github.com/invisibleXML/.
 
 ## Installation
 
@@ -26,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ixml. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/ixml/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/typesend/ixml_gem. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/typesend/ixml_gem/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
